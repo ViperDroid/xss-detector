@@ -27,7 +27,7 @@ This tool is intended for educational and lab use only. Never scan websites with
 Installation
 
 # Clone this repository
-git clone https://github.com/YourUsername/advanced-go-xss-scanner.git
+git clone https://github.com/ViperDroid/xss-detector.git
 cd advanced-go-xss-scanner
 
 # Install dependencies
